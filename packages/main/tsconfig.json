@@ -1,5 +1,5 @@
 {
-    "references": [{ "path": "../wrapper" }],
+    "references": [{ "path": "../wrapper" }, { "path": "../lib" }],
     "compilerOptions": {
         "target": "es6",
         "module": "commonjs",

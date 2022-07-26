@@ -1,0 +1,31 @@
+{
+    "references": [{ "path": "../wrapper" }],
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "dist",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "removeComments": false,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "@depr-test/*": ["./packages/*/src"]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+        "node_modules/**/*",
+        "!node_modules/@types",
+        "src/**/*.test.ts",
+        "src/**/*.spec.ts"
+    ],
+    "typeRoots": ["node_modules/@types/"],
+    "compileOnSave": false
+}

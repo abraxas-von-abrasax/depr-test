@@ -1,0 +1,14 @@
+{
+    "name": "@depr-test/wrapper",
+    "version": "1.0.0",
+    "description": "",
+    "author": "Nenad Petkovic",
+    "license": "MIT",
+    "main": "lib/main",
+    "scripts": {
+        "dev": "npm run compile && node dist/main",
+        "compile": "npm run build:clean && npm run build",
+        "build": "tsc --build",
+        "build:clean": "tsc --build --clean"
+    }
+}

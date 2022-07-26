@@ -1,0 +1,14 @@
+{
+    "name": "@depr-test/main",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "license": "MIT",
+    "main": "dist/main",
+    "scripts": {
+        "dev": "npm run compile && node dist/main",
+        "compile": "npm run build:clean && npm run build",
+        "build": "tsc --build",
+        "build:clean": "tsc --build --clean"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "lib",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "removeComments": false,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "declaration": true,
+        "composite": true,
+        "rootDir": "src",
+        "paths": {
+            "@depr-test/*": ["./packages/*/src"]
+        }
+    },
+    "include": ["src"],
+    "exclude": [
+        "src/**/*.test.ts",
+        "src/**/*.spec.ts"
+    ],
+    "compileOnSave": false,
+    "references": [{ "path": "../lib" }]
+}

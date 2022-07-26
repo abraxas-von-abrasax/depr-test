@@ -1,0 +1,20 @@
+{
+    "name": "depr-test",
+    "version": "1.0.0",
+    "description": "Reproduces IntelliJ deprecation malfunction",
+    "author": "Nenad Petkovic",
+    "license": "MIT",
+    "scripts": {
+        "start": "npm run dev -w @depr-test/main",
+        "dev": "npm run dev -ws --if-present",
+        "compile": "npm run compile -ws --if-present",
+        "clean": "npm run build:clean -ws --if-present"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "engines": {
+        "node": "16.16.0",
+        "npm": "8.15.0"
+    }
+}

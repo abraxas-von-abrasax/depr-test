@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "dist",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "removeComments": false,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "declaration": true,
+        "composite": true,
+        "rootDir": "src"
+    },
+    "include": ["src"],
+    "exclude": [
+        "src/**/*.test.ts",
+        "src/**/*.spec.ts"
+    ],
+    "compileOnSave": false
+}

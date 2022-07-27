@@ -4,7 +4,7 @@
     "description": "",
     "author": "Nenad Petkovic",
     "license": "MIT",
-    "main": "lib/main",
+    "main": "dist/main",
     "scripts": {
         "dev": "npm run compile && node dist/main",
         "compile": "npm run build:clean && npm run build",
